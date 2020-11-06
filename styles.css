@@ -224,7 +224,7 @@ section {
     justify-content: center;
     z-index: 1400;
     transform: scale(0);
-    opacity: .3;
+    opacity: .5;
     transition: opacity 1.3s;
     background-color: var(--dark-red);
 }
@@ -439,9 +439,14 @@ section {
 .paragraph {
     color: #a5a5a5;
     margin-bottom: 2.5rem;
-
 }
 
+@media screen and (max-width: 600px) {
+    .discount {
+        padding: .3rem;
+        font-size: 13px;
+    }
+}
 
 
 

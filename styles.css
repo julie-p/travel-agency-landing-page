@@ -465,6 +465,10 @@ section {
         padding: .3rem;
         font-size: 13px;
     }
+
+    .offer-content {
+        top: 50px;
+    }
 }
 
 

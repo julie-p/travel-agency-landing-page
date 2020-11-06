@@ -45,7 +45,7 @@
     fill: #FFFFFF;
 }
 
-.custom-shape-divider-top-1604666073 {
+.custom-shape-divider-top-1604675719 {
     position: absolute;
     top: 0;
     left: 0;
@@ -55,14 +55,14 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1604666073 svg {
+.custom-shape-divider-top-1604675719 svg {
     position: relative;
     display: block;
-    width: calc(133% + 1.3px);
-    height: 38px;
+    width: calc(100% + 1.3px);
+    height: 55px;
 }
 
-.custom-shape-divider-top-1604666073 .shape-fill {
+.custom-shape-divider-top-1604675719 .shape-fill {
     fill: #FFFFFF;
 }
 
@@ -188,8 +188,8 @@ section {
     color: #fff;
     font-family: 'Courgette', cursive;
     margin-left: 4px;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 20px;
+    letter-spacing: -1.5px;
 }
 
 .hamburger-menu {
@@ -410,7 +410,7 @@ section {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    margin-top: 5rem;
+    margin-top: 10rem;
     height: 400px;
 }
 

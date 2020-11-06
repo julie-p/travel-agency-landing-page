@@ -14,10 +14,13 @@ $(document).ready(function(){
         if (scroll > 300) {
           $(".header").css("background", "var(--red-alt)");
           $(".header").css("opacity", ".9");
+          $('.header').css("border-bottom", 'none');
         }
-        else{
-            $(".header").css("background" , "transparent");  	
-        }
+        else {
+            $(".header").css("background" , "transparent");  
+            $(".header").css("opacity", "none");
+            $('.header').css("border-bottom", '1px solid #fff');	
+        };
     });
 
     //Initialisation AOS

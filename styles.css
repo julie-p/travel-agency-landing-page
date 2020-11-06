@@ -291,6 +291,7 @@ section {
     font-size: 3.6rem;
     font-weight: 300;
     font-family: 'Courgette', cursive;
+    letter-spacing: -2px;
 }
 
 /* Booking section */
@@ -339,9 +340,10 @@ section {
 }
 
 .sub-heading {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-family: 'Courgette', cursive;
     font-weight: 300;
+    letter-spacing: -1px;
     color: #a5a5a5;
 }
 
@@ -358,7 +360,7 @@ section {
     justify-content: center;
 }
 
-.featured-hotels {
+.featured-travels {
     height: 35rem;
     color: #fff;
     padding: 1rem;
@@ -366,7 +368,7 @@ section {
     z-index: 0;
 }
 
-.featured-hotels::before {
+.featured-travels::before {
     content: '';
     position: absolute;
     top: 0;
@@ -377,7 +379,7 @@ section {
     z-index: -1;
 }
 
-.hotel-image {
+.travel-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -387,15 +389,15 @@ section {
     z-index: -2;
 }
 
-.hotel-name {
+.travel-name {
     font-size: 2.6rem;
 }
 
-.hotel-price {
+.travel-price {
     font-size: 1.8rem;
 }
 
-.hotel-rating {
+.travel-rating {
     margin: 1rem 0 2.5rem;
 }
 

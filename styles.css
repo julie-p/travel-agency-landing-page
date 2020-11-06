@@ -331,13 +331,12 @@ section {
     border: none;
     width: 100%;
     min-height: 4rem;
-    padding: 1rem;
-/*  font-weight: bold; */    
+    padding: 1rem;    
     background-color: var(--red-transparent);
     color: #777;
     letter-spacing: 2px;
     font-family: "Open Sans", sans-serif;
-/*  resize: none; */ 
+    resize: none;
 }
 
 ::placeholder {
@@ -461,9 +460,19 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+    .hero {
+        background: url('./img/hero_background.jpg') center no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
     .discount {
         padding: .3rem;
         font-size: 13px;
+    }
+
+    .offer {
+        background-attachment: scroll;
     }
 
     .offer-content {

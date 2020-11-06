@@ -24,7 +24,7 @@
 }
 
 /*Shape divider*/
-.custom-shape-divider-bottom-1604664967 {
+.custom-shape-divider-bottom-1604697511 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -34,14 +34,14 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1604664967 svg {
+.custom-shape-divider-bottom-1604697511 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 81px;
+    height: 124px;
 }
 
-.custom-shape-divider-bottom-1604664967 .shape-fill {
+.custom-shape-divider-bottom-1604697511 .shape-fill {
     fill: #FFFFFF;
 }
 
@@ -178,18 +178,33 @@ section {
     justify-content: space-between;
 }
 
+.nav a {
+    display: flex;
+}
+
 .logo i {
     max-width: 80%;
-    font-size: 26px;
-    color: var(--yellow-solid)
+    font-size: 24px;
+    color: var(--yellow-solid);
+    margin-right: 1rem;
+}
+
+.logo p {
+    color: #fff;
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    letter-spacing: -1px;
+    position: relative;
+    top: 2px;
 }
 
 .logo span {
-    color: #fff;
-    font-family: 'Courgette', cursive;
-    margin-left: 4px;
-    font-size: 20px;
-    letter-spacing: -1.5px;
+    font-family: initial;
+    letter-spacing: 0;
+    font-size: 17px;
+    position: relative;
+    top: -1.5px;
+    margin-left: 1px;
 }
 
 .hamburger-menu {
@@ -429,7 +444,7 @@ section {
     background-attachment: fixed;
     position: relative;
     margin-top: 10rem;
-    height: 400px;
+    height: 500px;
 }
 
 .offer-content {
@@ -437,7 +452,7 @@ section {
     text-align: center;
     padding: 3rem 1rem;
     position: relative;
-    top: 80px;
+    top: 110px;
     overflow: hidden;
 }
 
@@ -449,9 +464,11 @@ section {
     left: 0;
     padding: 1rem;
     font-weight: bold;
+    letter-spacing: 1px;
     text-transform: uppercase;
     outline: 2px solid var(--yellow-solid);
     outline-offset: .5rem;
+    color: #fff;
 }
 
 .paragraph {

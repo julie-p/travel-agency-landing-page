@@ -117,7 +117,7 @@ section {
 
 .btn-gradient:hover {
     opacity: .85 !important;
-    animation: bounce 1.5s;
+    animation: bounce 1.7s ease infinite;
 }
 
 @keyframes bounce {
@@ -127,8 +127,8 @@ section {
     }
   
     40% {
-      -webkit-transform: translateY(5px);
-      transform: translateY(5px);
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
     }
   
     80% {
@@ -421,7 +421,7 @@ section {
     text-align: center;
     padding: 3rem 1rem;
     position: relative;
-    top: 50px;
+    top: 80px;
     overflow: hidden;
 }
 

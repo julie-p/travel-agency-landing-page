@@ -15,6 +15,7 @@ $(document).ready(function(){
           $(".header").css("background", "var(--red-alt)");
           $(".header").css("opacity", ".9");
           $('.header').css("border-bottom", 'none');
+          $(".menu-open .nav-list").css("opacity", "1");
         }
         else {
             $(".header").css("background" , "transparent");  

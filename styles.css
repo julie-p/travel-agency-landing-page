@@ -116,8 +116,8 @@ section {
 }
 
 .btn-gradient:hover {
-    opacity: .85;
-    animation: bounce 1s;
+    opacity: .85 !important;
+    animation: bounce 1.3s;
 }
 
 @keyframes bounce {

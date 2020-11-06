@@ -467,16 +467,16 @@ section {
     }
 
     .input-group {
-    outline: none;
-    border: none;
-    width: 100%;
-    min-height: 4rem;
-    padding: 1rem;    
-    color: #777;
-    letter-spacing: 2px;
-    font-family: "Open Sans", sans-serif;
-    resize: none;
-}
+        outline: none;
+        border: none;
+        width: 100%;
+        min-height: 4rem;
+        padding: 1rem;    
+        color: #777;
+        letter-spacing: 2px;
+        font-family: "Open Sans", sans-serif;
+        resize: none;
+    }
 
     .discount {
         padding: .3rem;

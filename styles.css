@@ -325,6 +325,20 @@ section {
     margin-bottom: 1rem;
 }
 
+.input, 
+.options {
+    outline: none;
+    border: none;
+    width: 100%;
+    min-height: 4rem;
+    padding: 1rem;    
+    background-color: var(--red-transparent);
+    color: #777;
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+    resize: none;
+}
+
 ::placeholder {
     color: inherit;
 }
@@ -463,22 +477,6 @@ section {
 
     .offer-content {
         top: 50px;
-    }
-}
-
-@media screen and (min-width: 300px) {
-    .input, 
-    .options {
-        outline: none;
-        border: none;
-        width: 100%;
-        min-height: 4rem;
-        padding: 1rem;    
-        background-color: var(--red-transparent);
-        color: #777;
-        letter-spacing: 2px;
-        font-family: "Open Sans", sans-serif;
-        resize: none;
     }
 }
 

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Wanderer</title>
+        <meta name="description" content="">
+        <meta name="viewport" 
+        content="width=device-width, user-saclable=no, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+        crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="index.html" class="logo">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Wanderer</span>
+                    </a>
+                    <div class="hamburger-menu">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero">
+                <div class="container">
+                    <div class="custom-shape-divider-bottom-1604664967">
+                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                        </svg>
+                    </div>
+                    <div class="main-heading">
+                        <h1 class="title">Discover</h1>
+                        <h2 class="subtitle">The World</h2>
+                    </div>
+
+                    <a href="#" class="btn btn-gradient">Explore Now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+            </div>
+
+            <section class="booking">
+                <div class="container">
+                    <form action="" class="form">
+                        <div class="input-group">
+                            <label for="destination" class="input-label">Destination</label>
+                            <input type="text" class="input" id="destination">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="check-in" class="input-label">Check In</label>
+                            <input type="date" class="input" id="check-in">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="check-out" class="input-label">Check Out</label>
+                            <input type="date" class="input" id="check-out">
+                        </div>
+
+
+                        <div class="input-group">
+                            <label for="adults" class="input-label">Adults</label>
+                            <select name="adults" id="adults" class="options">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="children" class="input-label">Children</label>
+                            <select name="children" id="children" class="options">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn form-btn btn-red">Search
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="hotels">
+                <div class="container">
+                    <h5 class="section-header">
+                        <span class="heading">Explore</span>
+                        <span class="sub-heading">Our Beautiful World</span>
+                    </h5>
+
+                    <div class="grid">
+                        <div class="grid-item featured-hotels">
+                            <img src="./img/mexico.jpg" alt="" class="hotel-image">
+                            <h5 class="hotel-name">Mexico</h5>
+                            <span class="hotel-price">From $1450</span>
+                            <div class="hotel-rating">
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star-half rating"></i>
+                            </div>
+                            <a href="#" class="btn btn-gradient">Book Now
+                                <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                            </a>
+                        </div>
+
+                        <div class="grid-item featured-hotels">
+                            <img src="./img/greece.jpg" alt="" class="hotel-image">
+                            <h5 class="hotel-name">Greece</h5>
+                            <span class="hotel-price">From $1450</span>
+                            <div class="hotel-rating">
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                            </div>
+                            <a href="#" class="btn btn-gradient">Book Now
+                                <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                            </a>
+                        </div>
+
+                        <div class="grid-item featured-hotels">
+                            <img src="./img/scotland.jpg" alt="" class="hotel-image">
+                            <h5 class="hotel-name">Scotland</h5>
+                            <span class="hotel-price">From $1450</span>
+                            <div class="hotel-rating">
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star rating"></i>
+                                <i class="fas fa-star-half rating"></i>
+                            </div>
+                            <a href="#" class="btn btn-gradient">Book Now
+                                <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="offer">
+                <div class="custom-shape-divider-top-1604666073">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+                <div class="container">
+                    <div class="offer-content">
+                        <div class="discount">
+                            - 40% 
+                        </div>
+                        <h5 class="hotel-name">Iceland Deluxe Package</h5>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star-half rating"></i>
+                        </div>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
+                        </p>
+                        <a href="#" class="btn btn-gradient">Book now
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

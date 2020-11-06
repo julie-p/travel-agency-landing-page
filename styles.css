@@ -262,6 +262,10 @@ section {
     padding: 1rem;
 }
 
+.nav-link:hover {
+    color: var(--yellow-solid);
+}
+
 /* Hero section */
 .hero {
     width: 100%;

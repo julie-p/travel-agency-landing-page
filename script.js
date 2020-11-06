@@ -7,6 +7,7 @@ hamburgerMenu.addEventListener('click', function() {
     header.classList.toggle('menu-open');
 });
 
+//JQuery
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
@@ -17,5 +18,12 @@ $(document).ready(function(){
         else{
             $(".header").css("background" , "transparent");  	
         }
-    })
-})
+    });
+
+    //Initialisation AOS
+    AOS.init({
+        easing: 'ease',
+        duration: 1800,
+        once: true
+    });
+});

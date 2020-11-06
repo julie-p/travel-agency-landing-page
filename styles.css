@@ -222,7 +222,6 @@ section {
     align-items: center;
     justify-content: center;
     z-index: 1400;
-    opacity: 0.5;
     transform: scale(0);
     transition: opacity .5s;
     background-color: var(--dark-red);
@@ -293,10 +292,6 @@ section {
 }
 
 /* Booking section */
-.booking {
-   /*  background-image: var(--gradient-color); */
-}
-
 .input-group {
     margin-bottom: 1.5rem;
 }
@@ -409,8 +404,9 @@ section {
 /* Special offer section */
 .offer {
     background: linear-gradient(to right, var(--yellow-transparent), var(--red-transparent-alt)),
-                url('./img/iceland.jpg') center no-repeat;
+                url('./img/iceland.jpg');
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     margin-top: 5rem;
     height: 400px;

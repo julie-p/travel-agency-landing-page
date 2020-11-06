@@ -325,20 +325,6 @@ section {
     margin-bottom: 1rem;
 }
 
-.input, 
-.options {
-    outline: none;
-    border: none;
-    width: 100%;
-    min-height: 4rem;
-    padding: 1rem;    
-    background-color: var(--red-transparent);
-    color: #777;
-    letter-spacing: 2px;
-    font-family: "Open Sans", sans-serif;
-    resize: none;
-}
-
 ::placeholder {
     color: inherit;
 }
@@ -459,7 +445,7 @@ section {
     margin-bottom: 2.5rem;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     .hero {
         background: url('./img/hero_background.jpg') center no-repeat;
         background-size: cover;
@@ -480,7 +466,21 @@ section {
     }
 }
 
-
+@media all and (min-width:321px) {
+    .input, 
+    .options {
+        outline: none;
+        border: none;
+        width: 100%;
+        min-height: 4rem;
+        padding: 1rem;    
+        background-color: var(--red-transparent);
+        color: #777;
+        letter-spacing: 2px;
+        font-family: "Open Sans", sans-serif;
+        resize: none;
+    }
+}
 
 
 

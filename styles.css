@@ -23,6 +23,14 @@
     --gradient-color-alt: linear-gradient(to right, var(--red-light), var(--yellow-solid));
 }
 
+input, textarea {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
 /*Shape divider*/
 .custom-shape-divider-bottom-1604697511 {
     position: absolute;

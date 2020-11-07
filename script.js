@@ -1,14 +1,26 @@
-//Selectors
-let header = document.querySelector('.header');
-let hamburgerMenu = document.querySelector('.hamburger-menu');
 
-//Event listener pour ouvrir le menu
-hamburgerMenu.addEventListener('click', function() {
-    header.classList.toggle('menu-open');
-});
-
+/* hamburgerMenu.removeEventListener('click', function() {
+    header.classList.remove('menu-open');
+}) */
 //JQuery
-$(document).ready(function(){
+$(document).ready(function() {
+    //Ouvre le menu
+    $('.hamburger-menu').on('click', function () {
+        $(this).toggleClass('menu-open');
+        $('.nav').toggleClass('menu-open');
+    });
+    //Ferme le menu s/click et redirige vers la section
+    $('.nav .nav-link').on('click', function () {
+        $('.hamburger-menu').removeClass('menu-open');
+        $('.nav').removeClass('menu-open');
+    });
+    //Smooth scroll down
+    $('nav a[href*="#"]').on('click', function () {
+        $('html, body').animate( {
+            scrollTop: $($(this).attr('href')).offset().top - 100
+        }, 2000);
+    });
+    //Header styles on scroll
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 300) {

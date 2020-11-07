@@ -227,15 +227,6 @@ section {
     top: 2px;
 }
 
-.logo span {
-    font-family: initial;
-    letter-spacing: 0;
-    font-size: 17px;
-    position: relative;
-    top: -1.5px;
-    margin-left: 1px;
-}
-
 .social {
     display: flex;
     color: #fff;
@@ -620,10 +611,29 @@ section {
     margin-top: 2rem;
 }
 
+@media all and (max-width: 1224px) {
+    .trending-title {
+        width: auto;
+        z-index: 5;
+        position: initial;
+        top: -50px;
+        float: none;
+    }
+    
+    .trending-title h1 span {
+        color: #a5a5a5;
+    }
+
+    .trending-content{
+        width: auto;
+        text-align: center !important;
+        transform: none !important;
+        margin-top: 2rem;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .hero {
-        background: url('./img/hero_background.jpg') center no-repeat;
-        background-size: cover;
         background-attachment: scroll;
     }
 
@@ -645,24 +655,17 @@ section {
     }
 }
 
-@media all and (max-width: 1224px) {
-    .trending-title {
-        width: auto;
-        z-index: 5;
-        position: initial;
-        top: -50px;
-        float: none;
-    }
-    
-    .trending-title h1 span {
-        color: #a5a5a5;
+@media screen and (min-width: 375px) {
+    .hamburger-menu span {
+        display: none;
     }
 
-    .trending-content{
-        width: auto;
-        text-align: center !important;
-        transform: none !important;
-        margin-top: 2rem;
+    .title {
+        font-size: 5.8rem;
+    }
+
+    .offer-content {
+        top: 100px;
     }
 }
 

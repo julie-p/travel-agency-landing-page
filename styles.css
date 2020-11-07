@@ -568,7 +568,7 @@ section {
     float: right;
     position: relative;
     top: -250px;
-    left: 120px;
+    left: 115px;
     z-index: 5;
 }
 
@@ -647,11 +647,12 @@ section {
     }
 
     .offer-content {
-        top: 50px;
+        top: 120px;
     }
 
     .trending-title h1 {
-        font-size: 50px;
+        font-size: 45px;
+        letter-spacing: 18px;
     }
 }
 
@@ -665,7 +666,7 @@ section {
     }
 
     .offer-content {
-        top: 100px;
+        top: 110px;
     }
 }
 

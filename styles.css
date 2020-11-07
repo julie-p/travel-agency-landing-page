@@ -521,8 +521,12 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 12rem;
+    margin-top: 16rem;
     z-index: 1;
+}
+
+.right {
+    float: right;
 }
 
 .box-1 {
@@ -563,6 +567,44 @@ section {
     transform: translateY(-60px) !important;
 }
 
+.box-5 {
+    width: 200px;
+    height: 400px;
+    background: linear-gradient(to right, var(--yellow-transparent), var(--red-transparent-alt)), url('./imgs/ireland.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+}
+
+.box-6 {
+    width: 200px;
+    height: 400px;
+    background: linear-gradient(to right, var(--yellow-transparent), var(--red-transparent-alt)), url('./imgs/ireland_1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+    transform: translateY(-60px) !important;
+}
+
+.box-7 {
+    width: 200px;
+    height: 400px;
+    background: linear-gradient(to right, var(--yellow-transparent), var(--red-transparent-alt)), url('./imgs/ireland_3.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+}
+
+.box-8 {
+    width: 200px;
+    height: 400px;
+    background: linear-gradient(to right, var(--yellow-transparent), var(--red-transparent-alt)), url('./imgs/ireland_4.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+    transform: translateY(-60px) !important;
+}
+
 .trending-title {
     width: 55%;
     float: right;
@@ -573,7 +615,7 @@ section {
 }
 
 .trending-title h1 {
-    font-size: 100px;
+    font-size: 90px;
     letter-spacing: 22px;
     text-transform: uppercase;
     text-align: center;
@@ -585,6 +627,15 @@ section {
 
 .trending-title h1 span {
     color: #fff;
+}
+
+.two {
+    float: left;
+    top: -280px;
+}
+
+.two h1 {
+    transform: translateX(-230px);
 }
 
 .trending-title h5 {
@@ -605,13 +656,18 @@ section {
     font-size: 20px;
     color: #a5a5a5;
     margin-top: 5rem;
+    clear: both;
 }
 
 .trending-content a {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 @media all and (max-width: 1224px) {
+    .right {
+        float: none;
+    }
+
     .trending-title {
         width: auto;
         z-index: 5;
@@ -619,16 +675,24 @@ section {
         top: -50px;
         float: none;
     }
+
+    .two h1 {
+        transform: translateY(-30px);
+    }
     
     .trending-title h1 span {
-        color: #a5a5a5;
+        color: #a19b9b;
     }
 
-    .trending-content{
+    .trending-content {
         width: auto;
         text-align: center !important;
         transform: none !important;
-        margin-top: 1rem;
+        margin-top: 2rem;
+    }
+
+    .trending-content a {
+        margin-top: 4rem;
     }
 }
 
@@ -651,8 +715,14 @@ section {
     }
 
     .trending-title h1 {
+        text-align: center;
         font-size: 45px;
-        letter-spacing: 18px;
+        letter-spacing: 12px;
+    }
+
+    .trending-content  {
+        font-size: 17px;
+        margin-top: 0;
     }
 }
 
@@ -667,6 +737,10 @@ section {
 
     .offer-content {
         top: 110px;
+    }
+
+    .two h1 {
+        transform: translateY(-25px);
     }
 }
 

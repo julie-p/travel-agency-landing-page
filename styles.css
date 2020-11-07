@@ -377,6 +377,8 @@ section {
 /* Booking section */
 .input-group {
     margin-bottom: 1.5rem;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 .input-label {

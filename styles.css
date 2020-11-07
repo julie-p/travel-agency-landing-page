@@ -23,9 +23,14 @@
     --gradient-color-alt: linear-gradient(to right, var(--red-light), var(--yellow-solid));
 }
 
-input, textarea {
-    -webkit-appearance: none;
-    border-radius: 0;
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+border-radius: 0;
 }
 
 /*Shape divider*/

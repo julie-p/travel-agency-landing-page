@@ -35,6 +35,19 @@ input[type="submit"],
 border-radius: 0;
 }
 
+.spinner-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--red-transparent);
+}
+
+.spinner {
+    background: url(../imgs/plane-loader.gif) center no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+}
+
 /*Shape divider*/
 .custom-shape-divider-bottom-1604697511 {
     position: absolute;
@@ -335,8 +348,8 @@ section {
     height: 105vh;
     background: url('./imgs/hero_background.jpg') center no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    display: flex;
+/*     background-attachment: fixed;
+ */    display: flex;
     align-items: center;
     text-align: center;
     position: relative;
@@ -634,7 +647,6 @@ section {
     text-transform: uppercase;
     text-align: center;
     transform: translateY(-30px);
-    padding-left: 20px;
     line-height: 50px;
     margin: 0;
 }

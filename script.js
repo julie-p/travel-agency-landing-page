@@ -1,7 +1,10 @@
+/* Loader */
+let spinnerWrapper = document.querySelector('.spinner-wrapper');
 
-/* hamburgerMenu.removeEventListener('click', function() {
-    header.classList.remove('menu-open');
-}) */
+window.addEventListener('load', function() {
+    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
+
 //JQuery
 $(document).ready(function() {
     //Ouvre le menu
@@ -21,7 +24,7 @@ $(document).ready(function() {
         }, 2000);
     });
     //Header styles on scroll
-    $(window).scroll(function(){
+    $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll > 300) {
           $(".header").css("background", "var(--red-alt)");
